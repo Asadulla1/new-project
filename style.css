@@ -1,55 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Network</title>
-    <link rel="shortcut icon" href="images/Fav1.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!--First Section -->
-    <section class="top-banner flex-container">
-        <div class="half-half">
-            <h1><span class="heading-color" >Skip</span> <span class="h-color2">The Diet,</span> </h1>
-            <h1><span class="h-color2">Just Eat Healthy</span></h1>
-            <h1><span class="h-color2">With Food Network</span> </h1>
-            <p id="paragraph1">Imagine you don't need a diet because we provide <br>
-                healthy and delicious food for you!</p>
-            <a target="_blank" href="https://www.foodpanda.com.bd">Order Now</a>
-        </div>
-        <div class="half-half">
-            <img id="image1" src="images/female/Group 8425.png" alt="Photo">
-        </div>
-    </section>
-<!--Second Section-->
-    <section class="mid-banner flex-container">
-        <div class="half-half">
-            <img id="image2" src="images/female/Person Image.png" alt="Photo">
-        </div>
-        <div class="half-half">
-            <h1 class="h-color2">About Me</h1>
-            <p id="paragraph2">This is Faiza from Khudalagse. I love food very much. I love to try different kind of foods from the different places of the world. I also love travelling. I have a wish to travel the whole world. But till now I don't have enough money! In Sha Allah one day I will be able to travel the whole world.</p>
-            <a target="_blank" href="https://asadulla1.github.io/developer-protfolio/">Contact Me</a>
-        </div>
-    </section>
-    <!--Third Section-->
-    <section>
-        <div>
-            <div>
-                <h1 id="heading-align" class="h-color2">My Recipes</h1>
-                <p id="paragraph3">I love Briyani. I love Lacchi. I love Burger. I love Pizza. I love Tea. I love coffe. I love Steak. I love all of this from the core of my heart. But I don't have enough money for eating all of these.</p>
-            </div>
-            <div id="box-making" class="half-half flex-container">
-                <img class="box-image" src="images/food/Project Cover.jpg" alt="food">
-                <img class="box-image" src="images/food/Project Cover1.jpg" alt="food">
-                <img class="box-image" src="images/food/Project Cover.png" alt="food">
-            </div>
-        </div>
-    </section>
-</body>
-</html>
+body {
+    font-family: "Abhaya Libre", serif;
+    font-size: 30px;
+    margin: 0;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .top-banner {
+    background-image: url(images/shapes/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .heading-color {
+    color: orange;
+  }
+  .h-color2 {
+    color: grey;
+    font-weight: 900;
+  }
+  #paragraph1 {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 10%;
+  }
+  #paragraph2 {
+    margin-bottom: 10%;
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 20%;
+    font-weight: 300;
+  }
+  #paragraph3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    background-image: linear-gradient(salmon, orange);
+    padding: 10px 20px;
+    border-radius: 70px;
+    margin-top: 50%;
+  }
+  .half-half {
+    width: 50%;
+    padding-left: 7%;
+    margin-bottom: 5%;
+  }
+  #image1 {
+    width: 80%;
+    padding-right: 30%;
+  }
+  #image2 {
+    width: 40%;
+    padding-left: 20%;
+  }
+  .box-image {
+    width: 40%;
+    height: 60%;
+    margin-right: 3%;
+    padding-right: 10%;
+  }
+  .mid-banner {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #heading-align {
+    margin-top: 5%;
+    text-align: center;
+  }
+  #box-making {
+    box-shadow: 10px 10px 50px grey;
+    margin-left: 50px;
+  }
+  
